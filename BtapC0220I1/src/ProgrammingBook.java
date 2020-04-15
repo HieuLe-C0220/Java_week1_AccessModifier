@@ -7,10 +7,10 @@ public class ProgrammingBook extends Book {
         this.framework = framework;
     }
     public String getLanguage() {
-        return language;
+        return this.language;
     }
     public String getFramework() {
-        return framework;
+        return this.framework;
     }
     public void setLanguage(String language) {
         this.language = language;

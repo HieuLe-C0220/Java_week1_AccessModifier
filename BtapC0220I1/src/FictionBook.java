@@ -5,7 +5,7 @@ public class FictionBook extends Book {
         this.catelogy = catelogy;
     }
     public String getCatelogy() {
-        return catelogy;
+        return this.catelogy;
     }
 
     public void setCatelogy(String catelogy) {

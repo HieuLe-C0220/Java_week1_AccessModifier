@@ -9,16 +9,16 @@ public class Book {
         this.price = price;
     }
     public long getBookCode() {
-        return bookCode;
+        return this.bookCode;
     }
     public String getName() {
-        return name;
+        return this.name;
     }
     public String getAuthor() {
-        return author;
+        return this.author;
     }
     public int getPrice() {
-        return price;
+        return this.price;
     }
     public void setBookCode(long bookCode) {
         this.bookCode = bookCode;
@@ -31,5 +31,11 @@ public class Book {
     }
     public void setPrice(int price) {
         this.price = price;
+    }
+    public String toString(){
+        return "Code : "+getBookCode()
+                +", Name: "+ getName()
+                +", Author: "+getAuthor()
+                +", Price : " + getPrice();
     }
 }
